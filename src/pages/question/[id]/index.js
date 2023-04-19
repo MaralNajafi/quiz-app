@@ -5,15 +5,14 @@ import Link from "next/link";
 export default function index({ question, questions }) {
   return (
     <div className="flex justify-center items-center flex-col gap-5 min-h-screen">
-      <Question
-        question={question.question}
-        option_a={question.option_a}
-        option_b={question.option_b}
-        option_c={question.option_c}
-        option_d={question.option_d}
-        correct_answer={question.correct_answer}
-        id={question.id}
-      />
+      <Link href={`http://localhost:3000`}>
+        <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4">
+          Home
+        </button>
+      </Link>
+
+      <Question question={question} />
+
       <div className="flex">
         {question.id > 1 && (
           <Link href={`http://localhost:3000/question/${question.id - 1}`}>
