@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "What is the only food that cannot go bad?",
+      "option_a": "Dark chocolate",
+      "option_b": "Peanut butter",
+      "option_c": "Canned tuna",
+      "option_d": "Honey",
+      "correct_answer": "Honey",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 1
+    },
+    {
+      "question": "Which was René Magritte’s first surrealist painting?",
+      "option_a": "Not to Be Reproduced",
+      "option_b": "Personal Values",
+      "option_c": "The Lovers",
+      "option_d": "The Lost Jockey",
+      "correct_answer": "The Lost Jockey",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 2
+    },
+    {
+      "question": "What is the most visited tourist attraction in the world?",
+      "option_a": "Eiffel Tower",
+      "option_b": "Statue of Liberty",
+      "option_c": "Great Wall of China",
+      "option_d": "Colosseum",
+      "correct_answer": "Eiffel Tower",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 3
+    },
+    {
+      "question": "What’s the name of Hagrid’s pet spider?",
+      "option_a": "Nigini",
+      "option_b": "Crookshanks",
+      "option_c": "Aragog",
+      "option_d": "Mosag",
+      "correct_answer": "Aragog",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 4
+    },
+    {
+      "question": "What’s the heaviest organ in the human body?",
+      "option_a": "Brain",
+      "option_b": "Liver",
+      "option_c": "Skin",
+      "option_d": "Heart",
+      "correct_answer": "Liver",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 5
+    },
+    {
+      "question": "Who made the third most 3-pointers in the Playoffs in NBA history?",
+      "option_a": "Kevin Durant",
+      "option_b": "JJ Reddick",
+      "option_c": "Lebron James",
+      "option_d": "Kyle Korver",
+      "correct_answer": "Lebron James",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 6
+    },
+    {
+      "question": "Which of these EU countries does not use the euro as its currency?",
+      "option_a": "Poland",
+      "option_b": "Denmark",
+      "option_c": "Sweden",
+      "option_d": "All of the above",
+      "correct_answer": "All of the above",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 7
+    },
+    {
+      "question": "What element does the chemical symbol Au stand for?",
+      "option_a": "Silver",
+      "option_b": "Magnesium",
+      "option_c": "Salt",
+      "option_d": "Gold",
+      "correct_answer": "Gold",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 8
+    },
+    {
+      "question": "What is the highest-grossing Broadway show of all time?",
+      "option_a": "The Lion King",
+      "option_b": "Wicked",
+      "option_c": "Kinky Boots",
+      "option_d": "Hamilton",
+      "correct_answer": "The Lion King",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 9
+    },
+    {
+      "question": "On average, how many seeds are located on the outside of a strawberry?",
+      "option_a": "100",
+      "option_b": "200",
+      "option_c": "400",
+      "option_d": "500",
+      "correct_answer": "200",
+      "answered_correctly": false,
+      "checked": false,
+      "id": 10
+    }
+  ]
+}
