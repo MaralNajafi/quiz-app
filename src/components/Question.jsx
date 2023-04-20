@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import QuestionItem from "./QuestionItem";
 
 export default function Question({ question }) {
@@ -10,7 +9,6 @@ export default function Question({ question }) {
         option_b={question.option_b}
         option_c={question.option_c}
         option_d={question.option_d}
-        checked={question.checked}
         correct_answer={question.correct_answer}
         id={question.id}
       />

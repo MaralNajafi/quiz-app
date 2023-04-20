@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import QuestionOption from "./QuestionOption";
 
 export default function QuestionItem({
   question,
@@ -9,7 +9,7 @@ export default function QuestionItem({
   correct_answer,
   id,
 }) {
-  function result(event) {
+  function setResult(event) {
     if (event.target.value === correct_answer) {
       console.log("correct");
     } else {
@@ -21,53 +21,34 @@ export default function QuestionItem({
   return (
     <div className="flex flex-col gap-1">
       <p>{question}</p>
-      <div className="flex flex-row gap-1 items-center">
-        <input
-          type="radio"
-          name={`question-options-${id}`}
-          value={option_a}
-          onChange={(event) => {
-            result(event);
-          }}
-        />
-        <label>{option_a}</label>
-      </div>
-
-      <div className="flex flex-row gap-1 items-center">
-        <input
-          type="radio"
-          name={`question-options-${id}`}
-          value={option_b}
-          onChange={(event) => {
-            result(event);
-          }}
-        />
-        <label>{option_b}</label>
-      </div>
-
-      <div className="flex flex-row gap-1 items-center">
-        <input
-          type="radio"
-          name={`question-options-${id}`}
-          value={option_c}
-          onChange={(event) => {
-            result(event);
-          }}
-        />
-        <label>{option_c}</label>
-      </div>
-
-      <div className="flex flex-row gap-1 items-center">
-        <input
-          type="radio"
-          name={`question-options-${id}`}
-          value={option_d}
-          onChange={(event) => {
-            result(event);
-          }}
-        />
-        <label>{option_d}</label>
-      </div>
+      <QuestionOption
+        option={option_a}
+        id={id}
+        onChange={(event) => {
+          setResult(event);
+        }}
+      />
+      <QuestionOption
+        option={option_b}
+        id={id}
+        onChange={(event) => {
+          setResult(event);
+        }}
+      />
+      <QuestionOption
+        option={option_c}
+        id={id}
+        onChange={(event) => {
+          setResult(event);
+        }}
+      />
+      <QuestionOption
+        option={option_d}
+        id={id}
+        onChange={(event) => {
+          setResult(event);
+        }}
+      />
     </div>
   );
 }
