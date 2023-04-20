@@ -1,4 +1,3 @@
-import React from "react";
 import Question from "@/components/Question";
 import Link from "next/link";
 
@@ -11,7 +10,7 @@ export default function index({ question, questions }) {
         </button>
       </Link>
 
-      <Question question={question} />
+      <Question question={question} key={`question-${question.id}`} />
 
       <div className="flex">
         {question.id > 1 && (
